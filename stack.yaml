@@ -1,6 +1,6 @@
 # GHC 9.8.4
 # Update `defaultGHCVersion` in `./flake.nix` when updating to resolver with different GHC version.
-resolver: lts-23.17
+resolver: lts-24.9
 
 packages:
 - .
@@ -10,3 +10,6 @@ extra-deps:
 
 nix:
   packages: [zlib]
+
+
+system-ghc: true
